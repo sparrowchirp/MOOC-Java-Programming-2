@@ -2,6 +2,8 @@
 import java.util.ArrayList;
 
 public abstract class Box {
+    public Box() {
+    }
 
     public abstract void add(Item item);
 
